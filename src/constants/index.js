@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { logo, meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -99,58 +99,58 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Desarrollador Django",
+        company_name: "Alex Villae - fotografo profesional",
         icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        iconBg: "#38bdf8",
+        date: "Marzo 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollo de pagina simple con django.",
+            "Creacion de BD con Django integrando funcionalidad nativa de django.",
+            "implementando diseño responsivo con django multiplataforma, para dispositivos moviles.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Desarrollador React",
+        company_name: "Marathon truck & Trailer",
+        icon: "transparent",
+        iconBg: "#38bdf8",
+        date: "enero 2022 - Febrero 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollo de pagina simple con React consolidando conocimientos de JavaScript.",
+            "Colaborando con el equipo del cliente para crear una mejor experiencia de usuario.",
+            "Implementando diseño responsivo con react, para mejorar la experiencia.",
+            "Creacion de diseño moderno con react.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Desarrollador Web - WordPress",
+        company_name: "Quality lugo services llt",
+        icon: "transparent",
+        iconBg: "#38bdf8",
+        date: "septiembre 2022 - diciembre 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollo realizado con wordpress y plugins para la creacion de sitios web.",
+            "Colaborando con el equipo del cliente para crear una mejor experiencia de usuario.",
+            "Implementando diseño responsivo con wordpress, haciendo mas facil la utilizacion de los recursos web para el facil acceso a estos desde dispositivos moviles de acuerdo a requerimientos del cliente.",
+            
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Desarrollador Web - Django",
+        company_name: "Rockwell Solutions, Inc.",
+        icon: "transparent",
+        iconBg: "#38bdf8",
+        date: "Mayo 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollo de una pagina web para la venta de servicios de emergencia vial.",
+            "Diseño conciso de la pagina web. simple practico y funcional.",
+            "Creacion de una base de datos para almacenar la informacion. de conductores con necesidades de emergencia, facilitando la busqueda y rescate.",
+            
         ],
     },
 ];
+
 
 export const socialLinks = [
     {

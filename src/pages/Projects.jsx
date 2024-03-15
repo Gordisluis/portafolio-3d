@@ -15,7 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Me he embarcado en numerosos proyectos a lo largo de los años, pero estos son los que llevo más en el corazón. si despiertan tu interés, no dudes en contactarme.
+      Me he embarcado en numerosos proyectos a lo largo de mi trabajo, pero estos son los que llevo más en el corazón. si despiertan tu interés, no dudes en contactarme.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -44,7 +44,7 @@ const Projects = () => {
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  
+                 ver mas
                 </Link>
                 <img
                   src={arrow}
