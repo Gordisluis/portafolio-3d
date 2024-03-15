@@ -1,4 +1,4 @@
-import emailjs from "@emailjs/browser";
+
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
@@ -25,51 +25,10 @@ const Contact = () => {
     setLoading(true);
     setCurrentAnimation("hit");
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Luis Garcia",
-          from_email: form.email,
-          to_email: "vpedev@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          showAlert({
-            show: true,
-            text: "Gracias por tu mensaje 😃",
-            type: "Enviado",
-          });
-
-          setTimeout(() => {
-            hideAlert(false);
-            setCurrentAnimation("idle");
-            setForm({
-              name: "",
-              email: "",
-              message: "",
-            });
-          }, [3000]);
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-          setCurrentAnimation("idle");
-
-          showAlert({
-            show: true,
-            text: "No recibi tu mensaje 😢",
-            type: "danger",
-          });
-        }
-      );
+    const mailtoLink = `mailto:vpedev@gmail.com?subject=Contacto desde la web de Luis Garcia&body=Nombre: ${form.name}\nCorreo: ${form.email}\nMensaje: ${form.message}`;
+    window.location.href = mailtoLink;
   };
+  
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
@@ -103,7 +62,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='sosa@gmail.com'
+              placeholder='tu@correo.com'
               required
               value={form.email}
               onChange={handleChange}
