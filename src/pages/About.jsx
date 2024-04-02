@@ -50,9 +50,9 @@ const About = () => {
         <h3 className='subhead-text'>Experiencia Laboral.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            Me encanta trabajar en el mundo de la programación. en mi viaje me encontre con las mejores personas y
-            empresas. haciendo uso de mis habilidades y mis capacidades. entable con ellas muchas cosas y aprendi de ellas.
-            estoy muy agradecido por la experiencia.
+          Me encanta trabajar en el mundo de la programación. En mi viaje me encontré con las mejores personas y
+          empresas. Haciendo uso de mis habilidades y mis capacidades. entable con ellas muchas cosas y aprendí de ellas.
+          Estoy muy agradecido por la experiencia.
             
           </p>
         </div>
