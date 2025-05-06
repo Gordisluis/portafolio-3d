@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Programador de Venezuela, tengo 2 años de experiencia en el desarrollo
+          Programador de Web, tengo 6 años de experiencia en el desarrollo
           como freelancer en el mundo de la programación. Me encanta
         </p>
       </div>
