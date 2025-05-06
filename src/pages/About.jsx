@@ -22,8 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Programador de Web, tengo 6 años de experiencia en el desarrollo
-          como freelancer en el mundo de la programación. Me encanta
+        un programador web con 6 años de experiencia impulsando soluciones digitales como freelancer. Me apasiona transformar ideas en realidades funcionales y atractivas, que vive y respira código. Me encanta dar vida a proyectos web innovadores.
         </p>
       </div>
 
@@ -50,9 +49,7 @@ const About = () => {
         <h3 className='subhead-text'>Experiencia Laboral.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-          Me encanta trabajar en el mundo de la programación. En mi viaje me encontré con las mejores personas y
-          empresas. Haciendo uso de mis habilidades y mis capacidades. entable con ellas muchas cosas y aprendí de ellas.
-          Estoy muy agradecido por la experiencia.
+          Mi pasión por la programación web me ha brindado la oportunidad de colaborar con personas y empresas excepcionales a lo largo de mi trayectoria. Estas interacciones han sido fundamentales para desarrollar mis habilidades y capacidades, dejándome un profundo agradecimiento por el aprendizaje continuo y los logros compartidos.
             
           </p>
         </div>
