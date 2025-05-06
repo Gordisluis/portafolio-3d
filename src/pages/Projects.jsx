@@ -15,7 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Me he embarcado en numerosos proyectos a lo largo de mi trabajo, pero estos son los que llevo más en el corazón. Si despiertan tu interés, no dudes en contactarme.
+      A lo largo de mi trayectoria, he tenido el privilegio de liderar proyectos que realmente me apasionan y en los que he invertido mi mayor dedicación. Si estos proyectos resuenan con tus necesidades o visión, me encantaría explorar cómo mi experiencia puede contribuir a tus objetivos. ¿Tienes un desafío en mente? ¡Conversemos sobre cómo podemos hacerlo realidad!
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
